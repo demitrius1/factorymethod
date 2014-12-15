@@ -6,11 +6,11 @@ public abstract class Armario {
 	private String modelo;
 
 	public void construir() {
-		System.out.println("Armário em produção");
+		System.out.println("Armario em producao");
 	}
 
 	public void entregar() {
-		System.out.println("Armário em transporte");
+		System.out.println("Armario em transporte");
 	}
 
 	public String getTipo() {
