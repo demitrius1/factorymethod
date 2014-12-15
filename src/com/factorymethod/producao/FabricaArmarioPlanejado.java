@@ -7,7 +7,7 @@ import com.factorymethod.modelo.ArmarioModerno;
 public class FabricaArmarioPlanejado extends FabricaArmario {
 
 	public Armario construirArmario(String modelo) {
-		if (modelo.equals("Clássico"))
+		if (modelo.equals("Classico"))
 			return new ArmarioClassico();
 		else if (modelo.equals("Moderno"))
 			return new ArmarioModerno();
